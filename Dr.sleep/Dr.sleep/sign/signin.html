@@ -5,7 +5,6 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="img/season-change.jpg" type="image/x-icon">
         <title>睡眠医生</title>
         
                 
@@ -23,8 +22,11 @@
         <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="../assets/css/iconfont.css">
         <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
-        <link rel="stylesheet" type="text/css" href="../assets/css/sign.css">
+        <link rel="stylesheet" type="text/css" href="../assets/css/signin.css">
         <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+        <script src="../assets/js/jquery.js"></script>
+        <script type="text/javascript" src="../assets/js/signin.js"></script>
+        <script type="text/javascript" src="../assets/js/ipconfig.js"></script>
     </head>
     
     <body>
@@ -40,6 +42,13 @@
 			</nav>
         </section>
         
+        <!--login table-->
+        <script type="text/javascript" src="../assets/json/cityjson" charset="utf-8"></script>
+        <script type="text/javascript">
+            var IPData=returnCitySN;
+            var cip=IPData['cip']; 
+            var cname=IPData['cname']; 
+        </script>
         <section style="background-color: #46A1B4;border-bottom:40px;border-bottom-style:solid;border-bottom-color:#46A1B4">
             <div class="logina-logo">
                 <div>
