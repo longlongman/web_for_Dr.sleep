@@ -1,6 +1,6 @@
 // var ip = "http://202.117.54.42:8080/Yotta"; // 服务器域名(ip) + http端口(9218)+工程名字
-var ip = "http://yotta.xjtushilei.com:9218/Yotta"; // 服务器域名(ip) + http端口(9218)+工程名字
-
+//var ip = "http://yotta.xjtushilei.com:9218/Yotta"; // 服务器域名(ip) + http端口(9218)+工程名字
+var ip ="39.108.80.153:80"
 
 // setCookie("name","hayden");
 // alert(getCookie("name"));
